@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{2DF8A8A2-10C5-42C9-9A03-920142C4AE7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{2DF8A8A2-10C5-42C9-9A03-920142C4AE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{BE42DBFA-EE46-47EC-BD63-7BDCA742EBE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{BE42DBFA-EE46-47EC-BD63-7BDCA742EBE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanoutProducer", "FanoutProducer\FanoutProducer.csproj", "{6C92DDA6-4A8A-41B7-BB76-7273BFF81E5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutProducer", "FanoutProducer\FanoutProducer.csproj", "{6C92DDA6-4A8A-41B7-BB76-7273BFF81E5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanoutConsumer", "FanoutConsumer\FanoutConsumer.csproj", "{671FCE1E-0285-4DD5-BD4E-829B6C09B8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanoutConsumer", "FanoutConsumer\FanoutConsumer.csproj", "{671FCE1E-0285-4DD5-BD4E-829B6C09B8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicProducer", "TopicProducer\TopicProducer.csproj", "{A28B17A3-39A1-4CA5-B0DB-784CB0CFD370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicProducer", "TopicProducer\TopicProducer.csproj", "{A28B17A3-39A1-4CA5-B0DB-784CB0CFD370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicConsumer", "TopicConsumer\TopicConsumer.csproj", "{3FCBB14B-5771-4498-8EE7-8A11ADB1DCBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicConsumer", "TopicConsumer\TopicConsumer.csproj", "{3FCBB14B-5771-4498-8EE7-8A11ADB1DCBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLibrary", "ImageLibrary\ImageLibrary.csproj", "{EFC642A3-4054-44F5-BBF5-0E8ED22C1FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageLibrary", "ImageLibrary\ImageLibrary.csproj", "{EFC642A3-4054-44F5-BBF5-0E8ED22C1FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProducer", "ImageProducer\ImageProducer.csproj", "{99E5237D-9D28-4D14-9E03-474B2A501612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageProducer", "ImageProducer\ImageProducer.csproj", "{99E5237D-9D28-4D14-9E03-474B2A501612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessor", "ImageProcessor\ImageProcessor.csproj", "{E564A035-E993-4A5A-A0D9-093CB8B66C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageProcessor", "ImageProcessor\ImageProcessor.csproj", "{E564A035-E993-4A5A-A0D9-093CB8B66C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageWorker", "ImageWorker\ImageWorker.csproj", "{3147DF84-0F3F-4897-BCFA-907E430B6228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageWorker", "ImageWorker\ImageWorker.csproj", "{3147DF84-0F3F-4897-BCFA-907E430B6228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageViewer", "ImageViewer\ImageViewer.csproj", "{AE09024C-4ACE-4093-9671-2F3F33FE847F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageViewer", "ImageViewer\ImageViewer.csproj", "{AE09024C-4ACE-4093-9671-2F3F33FE847F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProducerTests", "ImageProducerTests\ImageProducerTests.csproj", "{2DD3A2A1-3319-42BE-A724-A39EAAB3AFC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,8 +77,15 @@ Global
 		{AE09024C-4ACE-4093-9671-2F3F33FE847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE09024C-4ACE-4093-9671-2F3F33FE847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE09024C-4ACE-4093-9671-2F3F33FE847F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD3A2A1-3319-42BE-A724-A39EAAB3AFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD3A2A1-3319-42BE-A724-A39EAAB3AFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD3A2A1-3319-42BE-A724-A39EAAB3AFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD3A2A1-3319-42BE-A724-A39EAAB3AFC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB14082-0A5C-4735-A83C-08CE8FE754C9}
 	EndGlobalSection
 EndGlobal
